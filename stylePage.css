@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    text-align: center;
+  }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    
+  }
+
+.row {
+  display: center;
+  clear: both;
+  text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+body {
+    margin: 15px;
+    text-align: center;
+  }
