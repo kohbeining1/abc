@@ -1,12 +1,10 @@
 /*  title for home page*/
 h1{
-  
   color:#F48065;
   font-family: 'Muli', sans-serif; 
   text-align: left;
   font-size: 45px;
   font-weight: bold;
-  margin-left: 10%;
   margin-top:;
 
   }
@@ -15,10 +13,10 @@ h1{
     color:#F48065;
     font-family: 'Muli', sans-serif; 
     text-align: left;
-    font-size: 45px;
+    font-size: 75px;
     font-weight: bold;
-    margin-left: 10%;
-    margin-top:  80px;
+    padding: 3%;
+
     }
   
 p1{
@@ -51,10 +49,30 @@ p1{
   background-image: url(img/front image.png);
   background-size: cover;
   transform-origin: center center 0;
-  padding: 28vw 0 20vw;
+  padding: 28vw 0 28vw
   position: relative;
   width: 100%;
 }
+
+/* for journey grid*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right:10%
+}
+
+/* 3 equal columns */
+.column {
+  flex: 33.3%;
+  max-width: 33.3%;
+}
+
+.column img {
+  vertical-align: middle;
+}
+
 
 img
   { align-content:center ;
@@ -63,9 +81,12 @@ img
 }
 
 video
-  { align-content:center ;}
+  { align-content:center ;
+}
 
 body{
   text-align: center; 
-    
+  margin-left: 10%;  
+  margin-right: 10%;
+
 }
