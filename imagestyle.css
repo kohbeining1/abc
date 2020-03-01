@@ -21,6 +21,7 @@ html {
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem; 
+    rotate: 90deg;
   }
   
   .gallery__img {
@@ -29,6 +30,7 @@ html {
     object-fit: cover;
     display: block; 
     transform: scale(0.5);
+    rotate: 90deg;
   }
   
   .gallery__item--1 {
@@ -38,6 +40,13 @@ html {
     grid-row-end: 3;
   }
 
-figure {
-      rotate: 90deg;
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
   }
+
+img {
+  rotate: 90deg;
+}
