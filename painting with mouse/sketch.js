@@ -4,13 +4,13 @@ var rate = 1;
 
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  background(0);
+  createCanvas(1899,3700);
+  background(242,242,243);
   hue = 0;
 }  
 
 function draw() {
-  // background(242, 242, 243);
+  // background(220);
 }
 
 function draw() {
