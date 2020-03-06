@@ -18,7 +18,6 @@ html {
   }
 
 .column {
-    float: left;
     align-content: center;
     column-count: auto;
   }
