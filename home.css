@@ -15,8 +15,8 @@ h1{
     text-align: left;
     font-size: 40px;
     font-weight: bold;
-    padding: 5%;
-    padding-bottom: 3%;
+    padding-left: 5%;
+    padding-bottom: ;
 
     }
 
@@ -27,7 +27,7 @@ h1{
     text-align: left;
     font-size: 40px;
     font-weight: bold;
-    padding: 5%;
+    padding-left: 5%;
     padding-bottom: 0;
   }  
   
@@ -89,7 +89,6 @@ h1{
 .img
   { align-content:center ;
     width: 30px;
-    padding: 50px;
 }
 
 video
@@ -101,7 +100,6 @@ video
   margin-left: 10%;  
   margin-right: 10%;
   background-color: #F2F2F3;
-  padding: 5%;;
 }
 
 footer {
