@@ -24,5 +24,5 @@ function draw() {
   colorMode(HSL, 360);
   noStroke();
   fill(hue, 150, 230);
-  ellipse(mouseX, mouseY, 200, 200);
+  ellipse(mouseX, mouseY, 400, 400);
 }
