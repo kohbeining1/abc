@@ -4,7 +4,7 @@ var rate = 1;
 
 
 function setup() {
-  createCanvas(1899,3700);
+  createCanvas(1899,3300);
   background(242,242,243);
   hue = 0;
 }  
